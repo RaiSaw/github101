@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --c1: beige;
+}
+.container-fluid{
+    background: var(--c1);
+    height: 100vh;
+}
+@media screen and (min-width: 1000px)and (max-width: 1500px){
+    .container-fluid{
+        background: pink;
+    }
+}
+.col-6{
+    background: darkcyan;
+}
+.col-4{
+    background: green;
+}
+.col-2{
+    background: blue;
+}
